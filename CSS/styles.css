@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-color: #eaf6f6;
+  border-style: dotted;
+  border-width: 15px 0 0 0;
+  width: 10%;
+  margin: 0 auto;
+}
+
+h1 {
+  height: 5.625rem;
+  margin: 0 auto 0 auto;
+  width: 10%;
+  font-family: 'Long Cang', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+p {
+  margin: 0 auto;
+  color: #40514e;
+  font-family: 'Cairo', sans-serif;
+}
+
+h2 {
+  font-family: 'Cairo', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  height: 2.5rem;
+}
+
+h3 {
+  font-family: 'Over the Rainbow', cursive;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6
+}
+
+.top-cloud {
+  position: absolute;
+  right: 15rem;
+  top: 4rem;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 15rem;
+  bottom: 23rem;
+}
+
+
+.itch {
+  text-decoration: line-through;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  padding: 5px 0 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding-bottom: 20px;
+}
+.contact {
+  margin-bottom: 3rem;
+}
+
+.footer-link {
+  line-height: 5;
+  margin: 30px;
+}
+
+.profile {
+  margin: 50px auto 50px auto;
+}
+
+.profile-desc {
+  width: 40%;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-image1 {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.skill-image2 {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.btn{
+  width: auto;
+  height: auto;
+  border: 0px solid #000000;
+  padding: 10px 20px;
+  cursor:pointer;
+  background: #11999e;
+  background: -webkit-gradient(radial, center center, 0px, center center 100%);
+  background: -webkit-radial-gradient(center, ellipse cover);
+  background: -moz-radial-gradient(center, ellipse cover);
+  background: -ms-radial-gradient(center, ellipse cover);
+  background: -o-radial-gradient(center, ellipse cover);
+  background: radial-gradient(ellipse at center);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='', endColorstr='undefined', GradientType=1 );
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+  -ms-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+  -o-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.12);
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0);
+
+}
